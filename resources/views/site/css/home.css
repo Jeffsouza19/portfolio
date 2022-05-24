@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+    background-image:url('../../images/fundo.jpg') ;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1280px;
+    margin:auto;
+}
+
+/* Css HEADER */
+.header{
+    background-color: rgb(49, 49, 49);
+    height: 10vh;
+    display: flex;
+    border-radius: 0 0 20px 20px ;
+}
+
+.logo{
+    width: 300px;
+    line-height: 10vh;
+    text-align: center;
+}
+
+.menu--navbar{
+    flex: 1;
+}
+
+.menu--item--navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 10vh;
+}
+
+.menu--item--navbar ul,
+.menu--item--navbar li{
+    height: 100%;
+    list-style: none;
+}
+
+.menu--item--navbar a{
+    text-decoration: none;
+
+}
+.menu--item--navbar li{
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    text-shadow: 2px 2px 3px #7e7316;
+    font-weight: bold;
+}
+.menu--item--navbar li:hover{
+    transform: scale(1.2);
+    text-shadow: 2px 2px 3px #fff000;
+}
+
+/* CSS MAIN */
+.content{
+    text-align: center;
+    min-height: 88vh;
+    width: 100%;
+    background-color: rgba(58, 58, 58, 0.72);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+
+.anima{
+    font-size:48px ;
+    display: inline-block;
+    padding-right: 5px;
+    width: 450px;
+    text-shadow: 2px 2px 3px #7e7316;
+
+}
+.anima::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca normal infinite .5s;
+}
+
+@keyframes pisca {
+
+    0%, 100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+
+/* CSS Skils */
+.skills--title{
+    text-align: center;
+    padding: 25px 0;
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px 20px 0 0;
+    font-size: 40px;
+    text-shadow: 2px 2px 3px #7e7316;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(49, 49, 49);
+}
+
+.cards{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 15px 30px 30px;
+    text-align: center;
+}
+
+.card--item{
+    /* border: 1px solid #000; */
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px  #fff;
+}
+
+.card--item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.card--item p {
+    padding:0 20px 10px;
+}
+
+.card--item img {
+    width: 100px;
+    padding: 10px 0;
+}
+
+.card--detail{
+    width: 400px;
+
+}
+
+.card--item--detail{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    padding: 25px 30px;
+    text-shadow: 2px 2px 3px #7e7316;
+}
+
+.card--item--detail h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.card--item--detail h3{
+    font-weight: 300;
+
+}
+
+.more{
+    text-align: center;
+    border-radius: 0 0px 20px 20px;
+    background-color: rgb(49, 49, 49);
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Css footer */
+
+.footer{
+    background-color: rgb(49, 49, 49);
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px 20px 0 0 ;
+}
