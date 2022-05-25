@@ -60,10 +60,22 @@
                             <p>texto de teste. Breve explicação. testando a quebra de linha dos itens</p>
                         </div>
                         <div class="card--item">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
                             <p>texto de teste. Breve explicação. testando a quebra de linha dos itens</p>
                         </div>
                         <div class="card--item">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+                            <p>texto de teste. Breve explicação. testando a quebra de linha dos itens</p>
+                        </div>
+                        <div class="card--item hidden less">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                            <p>texto de teste. Breve explicação. testando a quebra de linha dos itens</p>
+                        </div>
+                        <div class="card--item hidden less">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                            <p>texto de teste. Breve explicação. testando a quebra de linha dos itens</p>
+                        </div>
+                        <div class="card--item hidden less">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                             <p>texto de teste. Breve explicação. testando a quebra de linha dos itens</p>
                         </div>
@@ -75,9 +87,26 @@
                        </div>
                     </aside>
                 </div>
-                <div class="more">VER MAIS</div>
+                <div class="more">
+                    <span class="text--more" onclick="showMore()">VER MAIS</span>
+                    <span class="text--less hidden" onclick="showLess()">VER MENOS</span>
+                </div>
             </div>
         </section>
+        {{-- <section>
+            <div class="container">
+                <div class="about">
+                    <div>
+                        Deste lado vou colocar um pouco do meu curriculo
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas autem modi eius deleniti perspiciatis consequuntur ut esse consequatur expedita? Adipisci, error consequatur culpa voluptatibus natus dolores nostrum rerum molestias cupiditate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam iste consequatur illo dolorem fugiat libero debitis tenetur expedita officia neque. Rem placeat sapiente ipsum temporibus pariatur odio aperiam dicta itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odio quibusdam corrupti eaque. Et molestiae quibusdam minus dolore est. Dicta non perspiciatis possimus ipsa consectetur molestias. Dolorum consequatur eligendi numquam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente error maiores excepturi illum amet nobis beatae voluptas soluta ducimus enim tenetur, perferendis dolorum. Quibusdam, animi explicabo! Atque nam repellat dicta!</p>
+                    </div>
+                    <div>
+                        Deste lado vou falar um pouco sobre softSkills
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt dolores excepturi porro aspernatur quas aliquam, minus quibusdam ratione nostrum velit voluptatibus debitis sed odio necessitatibus optio id aliquid reprehenderit quia!</p>
+                    </div>
+                </div>
+            </div>
+        </section> --}}
     </main>
     <footer>
         <div class="container footer">
